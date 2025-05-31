@@ -1,4 +1,4 @@
-# Use the official Bun image as the base image
+# the official node image 
 FROM node
 
 WORKDIR /app
