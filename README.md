@@ -12,7 +12,7 @@ A feature-rich real-time chat application built with React Native, Express, and 
 - Modern UI with NativeWind and React Native Paper
 - State management with Zustand
 - Data fetching with React Query
--React Compiler intelligence for automatic performance optimization (replaces manual useMemo/useCallback in many cases)
+- React Compiler intelligence for automatic performance optimization (replaces manual useMemo/useCallback in many cases)
 ## 🏗️ Architecture
 
 ### Frontend (Client)
