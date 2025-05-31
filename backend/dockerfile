@@ -1,0 +1,14 @@
+# Use the official Bun image as the base image
+FROM node
+
+WORKDIR /app
+
+COPY package.json ./
+RUN npm install
+
+
+
+EXPOSE 5000
+
+# start my application
+CMD ["npm", "run", "start"]
