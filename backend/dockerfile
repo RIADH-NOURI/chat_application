@@ -1,5 +1,5 @@
 # the official node image 
-FROM node
+FROM node:alpine
 
 WORKDIR /app
 
@@ -11,4 +11,4 @@ RUN npm install
 EXPOSE 5000
 
 # start my application
-CMD ["npm", "run", "start"]
+CMD ["npm","start"]
